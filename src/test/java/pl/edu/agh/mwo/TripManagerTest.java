@@ -16,6 +16,8 @@ public class TripManagerTest {
 		tripManager = new TripManager();
 		trip = new Trip("nazwa", "opis");
 		trip2 = new Trip("Super wycieszka MWO", "Cwiczenia TRAVIS i MAVEN");
+		trip2.setName("Super wycieszka MWO2");  // only for codecov badge
+		trip2.setDescription("Cwiczenia2 TRAVIS i MAVEN"); // only for codecov badge
 		photo1 = new Photo();
 		photo1.setComment("TRAVIS jest super");
 		photo2 = new Photo();
