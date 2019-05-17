@@ -4,10 +4,6 @@ public class Photo {
 
 	private String comment;
 
-	public Photo(String comment) {
-		this.comment = comment;
-	}
-
 	public String getComment() {
 		return comment;
 	}
